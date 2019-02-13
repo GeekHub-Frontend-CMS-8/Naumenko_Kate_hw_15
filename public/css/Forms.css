@@ -1,0 +1,54 @@
+ul { list-style: none; }
+
+.container { padding: 45px 90px; }
+
+.briefly-about-yourself li,
+.other-design li:first-child {
+  padding: 10px 0;
+}
+
+.fieldset { margin-top: 40px; }
+
+.small-title,
+.select,
+.in-conclusion span {
+  margin-left: 40px;
+}
+
+.in-conclusion .small-title:first-child { margin-bottom: 0; }
+
+.submit { margin: 15px 0; }
+
+.smaller { font-size: 14px; }
+
+.wrapper {
+  margin-bottom: 15px;
+  overflow: auto;
+  max-width: 100%;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.thead { background-color: #708090; }
+
+.tbody { background-color: #C0C0C0; }
+
+.cell {
+  padding: 10px;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+.special-list { padding-left: 0; }
+
+.special-list-item { padding: 10px 0; }
+
+.link:active,
+.link:link,
+.link:visited {
+  color: #000;
+  font: 18px "Helvetica", sans-serif;
+  text-decoration: none;
+}
